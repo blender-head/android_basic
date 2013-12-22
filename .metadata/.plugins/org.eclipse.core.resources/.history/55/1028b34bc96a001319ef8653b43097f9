@@ -1,0 +1,12 @@
+package com.example.hello_world;
+
+public class WorldGen {
+	String planetName = "Earth";
+	int planetMass;
+	double planetGravity;
+	int planetColonies;
+	long planetPopulation;
+	int planetBases;
+	int planetMilitary;
+	boolean planetProtection;
+}
