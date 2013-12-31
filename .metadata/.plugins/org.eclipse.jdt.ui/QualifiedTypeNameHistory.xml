@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.example.hello_world.WorldGen"/>
 <fullyQualifiedTypeName name="com.example.interfaces.IntWorldGen"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
 </qualifiedTypeNameHistroy>

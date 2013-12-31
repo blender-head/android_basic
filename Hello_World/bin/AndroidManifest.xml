@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.hello_world.NewPlanetActivity"
+            android:label="@string/title_activity_new_planet" >
+        </activity>
+        <activity
+            android:name="com.example.hello_world.ConfigPlanetActivity"
+            android:label="@string/title_activity_config_planet" >
+        </activity>
+        <activity
+            android:name="com.example.hello_world.TravelPlanetActivity"
+            android:label="@string/title_activity_travel_planet" >
+        </activity>
+        <activity
+            android:name="com.example.hello_world.AttackPlanetActivity"
+            android:label="@string/title_activity_attack_planet" >
+        </activity>
     </application>
 
 </manifest>

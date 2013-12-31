@@ -1,0 +1,22 @@
+1. Layouts and Activities:
+
+	- android layouts:
+	
+		- RelativeLayout
+		- FrameLayout
+		- LinearLayout
+		- Grid Layout
+		- ViewPager
+		- PagerTitleStrip
+		
+	- layout xml location: res/layout/activity_name.xml
+	  e.g res/layout/activity_main.xml for main activity layout
+	
+	- <TextView /> -> display text
+	
+	- menu xml location: res/menu/activity_name.xml
+	  e.g res/menu/main.xml for main activity menu
+	  
+	- <item /> -> menu item tag
+	
+	- string values location: res/values/string.xml
