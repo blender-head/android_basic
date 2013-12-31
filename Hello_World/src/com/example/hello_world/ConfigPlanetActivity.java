@@ -2,7 +2,11 @@ package com.example.hello_world;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.KeyEvent;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
 public class ConfigPlanetActivity extends Activity {
 
@@ -10,6 +14,16 @@ public class ConfigPlanetActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_config_planet);
+		
+		// Done configuring button click event
+		Button doneButton = (Button) findViewById(R.id.doneButton);
+		doneButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 
 	@Override
@@ -17,6 +31,17 @@ public class ConfigPlanetActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.config_planet, menu);
 		return true;
+	}
+	
+	public boolean onKeyDown(int keyCode, KeyEvent event)
+	{
+		if(keyCode == KeyEvent.KEYCODE_X)
+		{
+			finish();
+			return true;
+		}
+		
+		return false;
 	}
 
 }

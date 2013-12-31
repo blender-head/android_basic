@@ -3,6 +3,8 @@ package com.example.hello_world;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
 
 public class AttackPlanetActivity extends Activity {
 
@@ -10,6 +12,16 @@ public class AttackPlanetActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_attack_planet);
+		
+		// Planet images click event
+		ImageView exitButton = (ImageView) findViewById(R.id.exitButton);
+		exitButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 
 	@Override

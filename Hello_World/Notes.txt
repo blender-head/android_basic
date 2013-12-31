@@ -1,5 +1,7 @@
 1. Layouts and Activities:
-
+	
+	- android activity: androud UI
+	
 	- android layouts:
 	
 		- RelativeLayout
@@ -17,6 +19,8 @@
 	- menu xml location: res/menu/activity_name.xml
 	  e.g res/menu/main.xml for main activity menu
 	  
+    - activity's menu inflater method: onCreateOptionsMenu(Menu menu)
+	  
 	- <item /> -> menu item tag
 	
 	- string values location: res/values/string.xml
@@ -28,3 +32,14 @@
 	- <VideoView /> -> display video
 	
 	- <ImageButton /> -> display button image
+	
+2. Intents and Events:
+
+	- intents: interaction between activities
+	
+	- activity's menu selection event method: onOptionsItemSelected(MenuItem item)
+	
+	- start an activity:
+	
+		Intent intent_add = new Intent(this, NewPlanetActivity.class);
+    	this.startActivity(intent_add);

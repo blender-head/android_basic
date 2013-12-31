@@ -14,6 +14,12 @@
     <string name="planet_military_label">Planet Military: </string>
     <string name="planet_bases_label">Planet Bases: </string>
     <string name="planet_forcefield_label">Planet Forcefield: </string>
+    
+    <!-- Activity Titles -->
+    <string name="title_activity_new_planet">Add a New Planet</string>
+    <string name="title_activity_config_planet">Configure Planet</string>
+    <string name="title_activity_travel_planet">Travel to Planet</string>
+    <string name="title_activity_attack_planet">Attack on Planet</string>
 
     <!-- Menus -->
     <string name="menu_add_planet">Add a New Planet</string>
@@ -21,7 +27,7 @@
     <string name="menu_travel_planet">Travel to Planet</string>
     <string name="menu_attack_planet">Attack on Planet</string>
     <string name="menu_home_planet">Show Home Planet</string>
-    <string name="title_activity_new_planet">NewPlanetActivity</string>
+    
 
     <!-- Planet names -->
     <string name="content_desc_earth">Planet Earth</string>
@@ -30,22 +36,23 @@
     <string name="content_desc_jupiter">Planet Jupiter</string>
     <string name="content_desc_saturn">Planet Saturn</string>
     <string name="content_desc_neptune">Planet Neptune</string>
-    <string name="title_activity_config_planet">ConfigPlanetActivity</string>
-
-    <!-- Buttins -->
+    
+	<!-- Buttons -->
     <string name="button_name_colonies">Add Colonies</string>
     <string name="button_name_colonists">Add Colonists</string>
     <string name="button_name_bases">Add Bases</string>
     <string name="button_name_military">Add Military</string>
     <string name="button_name_ffon">Forcefield On</string>
     <string name="button_name_ffoff">Forcefield Off</string>
-    <string name="title_activity_travel_planet">TravelPlanetActivity</string>
-    <string name="title_activity_attack_planet">AttackPlanetActivity</string>
-    
+        
     <!-- Attack planet -->
     <string name="content_desc_bomb">Bomb the Planet</string>
 	<string name="content_desc_invade">Invade the Planet</string>
 	<string name="content_desc_virus">Infect Planet with Virus</string>
 	<string name="content_desc_laser">Fire Laser at Planet</string>
+	
+	<string name="button_name_return">Return Home</string>
+	<string name="content_desc_exit">Exit to Home Planet</string>
+	<string name="button_name_done">Done Configuring</string>
 
 </resources>

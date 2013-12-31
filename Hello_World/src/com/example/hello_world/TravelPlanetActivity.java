@@ -3,6 +3,8 @@ package com.example.hello_world;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 
 public class TravelPlanetActivity extends Activity {
 
@@ -10,6 +12,16 @@ public class TravelPlanetActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_travel_planet);
+		
+		// Return home button click event
+		Button returnButton = (Button) findViewById(R.id.returnButton);
+		returnButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 
 	@Override

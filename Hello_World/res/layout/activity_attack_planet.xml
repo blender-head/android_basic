@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".AttackPlanetActivity" >
 
     <ImageButton 
@@ -35,6 +35,13 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:contentDescription="@string/content_desc_laser"
+		android:src="@drawable/ic_launcher" />
+    
+    <ImageButton
+		android:id="@+id/exitButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/content_desc_exit"
 		android:src="@drawable/ic_launcher" />
 
 </LinearLayout>
